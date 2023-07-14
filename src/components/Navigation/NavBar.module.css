@@ -1,0 +1,26 @@
+.header {
+    max-width: 100rem;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .list {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: var(--color-primary-400);
+  }
+
+  .button {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .text {
+    font-family: Optima, sans-serif;
+  }

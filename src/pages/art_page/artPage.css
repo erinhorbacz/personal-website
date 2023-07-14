@@ -1,0 +1,62 @@
+.artContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* ca857e pink */
+    /* 957766a8 brown */
+    /* background-color: #000000a8; */
+    background-color: lightgray;
+    /* background-image:linear-gradient(#bb8469, #000000a8); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* height: 500px; */
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    padding-top: 5rem;
+    padding-bottom: 20px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 0; */
+    align-items: center;
+}
+
+.artBackground {
+    background-color: darkgray; /* Use an RGBA color with transparency */
+    backdrop-filter: blur(10px); /* Apply a blur effect to create the glassy look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.text {
+    clear: both;
+}
+
+.artRow{
+    /* display: flex;
+    justify-content: center; */
+    opacity: 0;
+    transition: 1s;
+}
+
+.artRow-zoom{
+    /* display: flex;
+    justify-content: center; */
+    opacity: 1;
+    transition: 1.25s;
+
+    animation: translateAnimArt 1.25s;
+}
+
+@keyframes translateAnimArt {
+    0%    { transform: translate(0, 100%); }
+    100%  { transform: translate(0); }
+  }

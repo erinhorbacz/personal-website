@@ -1,0 +1,41 @@
+@keyframes translateAnimFooter {
+    0%    { transform: translate(0, 100%); opacity: 0; }
+    100%  { transform: translate(0); opacity: 1;}
+  }
+  
+  .icon-3d {
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+    color: #fff;
+    cursor: pointer;
+  }
+  .icon-3d:hover {
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
+  }   
+  @keyframes icon3d {
+    0% {
+        text-shadow: 5px 4px #dab279, -5px -6px #4a2f37;
+   }
+    25% {
+        text-shadow: -5px -6px #dab279, -5px -6px #4a2f37;
+   }
+    50% {
+        text-shadow: 5px -4px #dab279, -5px -6px #4a2f37;
+   }
+    75% {
+        text-shadow: -8px -4px #dab279, -5px -6px #4a2f37;
+   }
+    100% {
+        text-shadow: -5px 0 #dab279, -5px -6px #4a2f37;
+   }
+  }
+  
+  .loadedApp{
+    animation: appLoad 2s;
+  }
+  @keyframes appLoad {
+    0%    { opacity: 0; }
+    100%  { opacity: 1;}
+  }
+  

@@ -1,0 +1,103 @@
+* {
+  text-align: center;
+  /* display: flow-root; */
+}
+
+.welcomeContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  /* color-scheme: light dark; */
+  /* #ddd850 */
+  background-color: #dab279;
+  /* background-image:linear-gradient(white, #49a2ba); */
+  /* background-image: url("../../components/images/mountain.jpeg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+  padding-top: 100px;
+}
+
+.image {
+  /* height: 200px; */
+  /* width: 200px; */
+  position: relative;
+  right: 500px;
+  right: 100px;
+  width: 500px;
+  height: "auto";
+}
+
+.aboutMe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 500px;
+  font-size: 20px;
+  /* display: flow-root; */
+  /* position: relative; */
+  /* left: 450px; */
+  /* padding-top: 100px; */
+  text-align: center;
+}
+
+.first_line {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom {
+  position: relative;
+  height: 250px;
+  /* padding-top: 100px; */
+  transform: translateY(100px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  /* #c7c249 */
+  /* ad8d60 */
+  background-color: #ad8d60;
+  backdrop-filter: blur(10px); /* Apply a blur effect to create the glassy look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  width: "100px";
+  flex-grow: 1;
+  justify-content: left;
+}
+
+.footer{
+  width: 100%;
+  opacity: 0;
+}
+
+.footer-view{
+  width: 100%;
+  opacity: 1;
+  animation: translateAnimFooter 0.5s;
+}
+
+@keyframes translateAnimFooter {
+  0%    { transform: translate(0, -50%); opacity: 0; }
+  100%  { transform: translate(0); opacity: 1;}
+}

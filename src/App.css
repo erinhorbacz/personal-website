@@ -1,38 +1,135 @@
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner_title {
+  /* font-family: Inter, sans-serif, Avenir, Arial; */
+  font-family: Optima, sans-serif;
   color: white;
+  display: inline-block; 
+  text-align: left;
+  position: relative;
+  padding: 15px;
+  /* z-index: 5; */
 }
 
-.App-link {
-  color: #61dafb;
+.banner{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  filter: brightness(60%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.centerBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  /* width: 700px; */
+  padding-top: 350px;
+}
+
+.centerText {
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerBox {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  position: absolute;
+  /* height: 10vh; */
+  padding-top: 270px;
+}
+
+.lowerText {
+  width: 300px;
+  justify-content: right;
+  align-items: right;
+  transform: translate(20px, 30px);
+}
+
+.bannerContainer {
+  /* justify-content: center; */
+  /* display:flex; */
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  /* padding: 2em 4em 4em; */
+  z-index: 6;
+}
+
+.content {
+  text-align: center;
+  z-index: 6;
+  position: relative;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  width: 100%;
+  opacity: 0;
+}
+
+.footer-view{
+  width: 100%;
+  opacity: 1;
+  animation: translateAnimFooter 2s;
+}
+
+@keyframes translateAnimFooter {
+  0%    { transform: translate(0, 100%); opacity: 0; }
+  100%  { transform: translate(0); opacity: 1;}
+}
+
+.icon-3d {
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: #fff;
+  cursor: pointer;
+}
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
+}   
+@keyframes icon3d {
+  0% {
+      text-shadow: 5px 4px rgba(244, 67, 54, 1), -5px -6px rgba(33, 150, 243, 1);
+ }
+  25% {
+      text-shadow: -5px -6px rgba(244, 67, 54, 1), 5px 4px rgba(33, 150, 243, 1);
+ }
+  50% {
+      text-shadow: 5px -4px rgba(244, 67, 54, 1), -8px 4px rgba(33, 150, 243, 1);
+ }
+  75% {
+      text-shadow: -8px -4px rgba(244, 67, 54, 1), -5px -4px rgba(33, 150, 243, 1);
+ }
+  100% {
+      text-shadow: -5px 0 rgba(244, 67, 54, 1), 5px -4px rgba(33, 150, 243, 1);
+ }
+}
+
+.loadedApp{
+  animation: appLoad 2s;
+}
+@keyframes appLoad {
+  0%    { opacity: 0; }
+  100%  { opacity: 1;}
 }

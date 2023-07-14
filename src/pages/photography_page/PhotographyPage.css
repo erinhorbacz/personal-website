@@ -1,0 +1,19 @@
+.galleryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    padding-top: 20rem;
+    background-color: #c8b9b0f8;
+    /* color: #765f515d; */
+  }
+  
+  .gallery-image {
+    width: 25%; /* Adjust the width as needed */
+    height: auto;
+    /* Add any additional styles as needed */
+  }
+  
+  
