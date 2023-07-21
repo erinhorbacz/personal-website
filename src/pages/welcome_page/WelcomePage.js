@@ -1,5 +1,4 @@
 import classes from "./WelcomePage.module.css";
-import image from "../../components/drawings/Untitled.png";
 import { Second_para } from "./Text";
 import Stack from "@mui/material/Stack";
 import "./icons.css";
@@ -7,7 +6,6 @@ import Comment from "./Comment";
 import { useInView } from "react-intersection-observer";
 import { Typography } from "@mui/material";
 // import { ClassNames } from "@emotion/react";
-// import { First_para, Second_para } from "./Text.js";
 // import {
 //   Animated
 // } from 'react-native-web';
@@ -45,7 +43,7 @@ const WelcomePage = () => {
           className={`${inView ? "footer-view" : "footer"} ${classes.bottom}`}
           ref={ref}
         > */}
-        <div className={classes.bottom}>
+        <div className={classes.bottom} style={{transform: 'translateY(100px)'}}>
           <div
             className={`${classes.contact} ${classes.text}`}
             style={{ paddingLeft: "10px" }}

@@ -18,11 +18,12 @@ import Skeleton from "@mui/material/Skeleton";
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
-import banImg1 from "./components/images/tree.png";
-// import background from "./components/images/Screen Shot 2023-07-12 at 9.35.15 PM.png";
-import background2 from "./components/images/Screen Shot 2023-07-12 at 10.03.30 PM.png";
-import background3 from "./components/images/Screen Shot 2023-07-12 at 9.55.19 PM.png";
-import background from "./components/images/Screen Shot 2023-07-13 at 12.57.52 PM.png";
+import first from "./components/images/sketch1689811674358.png";
+import second from "./components/images/sketch1689908519993.png";
+import third from "./components/images/sketch1689887813421.png";
+import fourth from "./components/images/sketch1689888082823.png";
+import fifth from "./components/images/sketch1689889175991.png";
+// import ye from "./components/images/sketch1689908519993.png";
 
 const darkTheme = createTheme({
   palette: {
@@ -40,16 +41,16 @@ function App() {
   const [x, setX] = useState(0);
 
   const sliderArr = [
-    background,
-    background,
-    background,
-    background,
-    background,
+    first,
+    second,
+    third,
+    fourth,
+    fifth,
   ];
   const [bannersLoaded, setBannersLoaded] = useState(0);
 
   var titleStyle = {
-    fontSize: "5rem",
+    fontSize: "6rem",
   };
   var personalStyle = {
     fontSize: "2rem",
@@ -59,7 +60,7 @@ function App() {
     <>
       <div className="centerBox">
         <h1 className="banner_title" style={titleStyle}>
-          hey this is Erin.
+          hey, this is Erin.
         </h1>
       </div>
       <div className="lowerBox">
