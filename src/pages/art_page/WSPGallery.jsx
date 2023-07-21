@@ -88,7 +88,7 @@ const WSPGallery = ({galleryImages}) => {
         </div>
       }
 
-      <div className='galleryWrap' style={{paddingTop: "50px"}}>
+      <div className='galleryWrap'>
         {
           galleryImages && galleryImages.map((slide, index) => {
             return(

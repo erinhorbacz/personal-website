@@ -4,18 +4,18 @@
     height: auto;
     /* ca857e pink */
     /* 957766a8 brown */
-    /* background-color: #000000a8; */
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: rgb(207, 206, 206);
     /* background-image:linear-gradient(#bb8469, #000000a8); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
     /* height: 500px; */
     display: flex;
-    /* flex-direction: column;
-    justify-content: center; */
+    flex-direction: column;
+    /* justify-content: center; */
     padding-top: 5rem;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .center {
@@ -28,12 +28,9 @@
 }
 
 .artBackground {
-    background-color: darkgray; /* Use an RGBA color with transparency */
-    backdrop-filter: blur(10px); /* Apply a blur effect to create the glassy look */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 350px;
-    height: 350px;
-    border-radius: 50%;
+    height: 200px;
+    /* border-radius: 50%; */
 }
 
 .text {

@@ -2,22 +2,27 @@ import { Skeleton } from "@mui/material";
 import "./music.css";
 import { useState } from "react";
 
+import Footer from "../../components/footer_section/Footer";
+
 const MusicPage = () => {
   const [loaded, setLoaded] = useState(false);
 
   const handleLoad = () => {
     setLoaded(true);
-  }
+  };
 
   return (
     <div className="background">
-      <h1 className="banner_title" style={{ textAlign: "center" }}>
+      <h1
+        className="banner_title"
+        style={{ textAlign: "center", paddingTop: "5rem" }}
+      >
         some songs I have on repeat right now
       </h1>
       <div style={loaded ? { display: "none" } : {}}>
-        <Skeleton style={{ width: "1000px", height: "1000px" }} />
+        <Skeleton style={{ width: "900px", height: "800px" }} />
       </div>
-      <div style={loaded ? {} : { display: "none" }}>
+      <div style={loaded ? { paddingBottom: "100px" } : { display: "none" }}>
         <iframe
           id="spotifyPlaylist"
           title="myFrame"
@@ -30,6 +35,7 @@ const MusicPage = () => {
           onLoad={handleLoad}
         ></iframe>
       </div>
+      <Footer color="#a98451"/>
     </div>
   );
 };
