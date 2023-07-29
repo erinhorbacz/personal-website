@@ -1,8 +1,5 @@
 import { Carousel } from "react-carousel-minimal";
-import tree from "../../components/images/tree.png";
-import mountain from "../../components/images/mountain.jpeg";
 import "./slider.css";
-import banImg4 from "../../components/images/citytest2s.jpg";
 import { importAll } from "../../components/Utils/fileimporter";
 import noah from "../../components/images/photography/IMG_1104.jpg";
 

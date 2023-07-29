@@ -68,7 +68,7 @@
   position: relative;
   height: 250px;
   /* padding-top: 100px; */
-  transform: translateY(100px);
+  /* transform: translateY(100px); */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
