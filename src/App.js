@@ -125,7 +125,7 @@ function App() {
           {location["pathname"] === "/" || location["pathname"] === "/home" ? (
             <div className="bannerContainer">
               <div className="centerBox">
-                <div className="centerText">
+                <div className="centerText" style={{ width: "650px" }}>
                   <Skeleton variant="text" style={titleStyle} />
                 </div>
               </div>
@@ -142,7 +142,7 @@ function App() {
           {location["pathname"] === "/art" ? (
             <div className="bannerContainer">
               <div className="centerBox">
-                <div className="centerText" style={{ width: "700px" }}>
+                <div className="centerText" style={{ width: "850px" }}>
                   <Skeleton variant="text" style={titleStyle} />
                 </div>
               </div>
@@ -154,7 +154,7 @@ function App() {
           {location["pathname"] === "/photography" ? (
             <div className="bannerContainer">
               <div className="centerBox">
-                <div className="centerText">
+                <div className="centerText"  style={{ width: "650px" }}>
                   <Skeleton variant="text" style={titleStyle} />
                 </div>
               </div>{" "}
@@ -166,7 +166,7 @@ function App() {
           {location["pathname"] === "/music" ? (
             <div className="bannerContainer">
               <div className="centerBox">
-                <div className="centerText" style={{ width: "800px" }}>
+                <div className="centerText" style={{ width: "950px" }}>
                   <Skeleton variant="text" style={titleStyle} />
                 </div>
               </div>{" "}
@@ -178,7 +178,7 @@ function App() {
           {location["pathname"] === "/pursuits" ? (
             <div className="bannerContainer">
               <div className="centerBox">
-                <div className="centerText" style={{ width: "700px" }}>
+                <div className="centerText" style={{ width: "800px" }}>
                   <Skeleton variant="text" style={titleStyle} />
                 </div>
               </div>{" "}
