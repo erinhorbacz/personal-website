@@ -4,6 +4,7 @@ import Footer from "../../components/footer_section/Footer";
 
 const PhotographyPage = () => {
   return (
+    <>
     <div className="galleryContainer" style={{ paddingTop: "5rem"}}>
       <div
         className="banner_title"
@@ -19,8 +20,10 @@ const PhotographyPage = () => {
         think is beautiful and do it purely for fun.
       </div>
       <Slider />
-      <Footer color="#765f51c1"/>
+      {/* <Footer color="#765f51c1"/> */}
     </div>
+    <Footer color="#765f51c1"/>
+    </>
   );
 };
 

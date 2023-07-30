@@ -12,6 +12,7 @@ const MusicPage = () => {
   };
 
   return (
+    <>
     <div className="background">
       <h1
         className="banner_title"
@@ -35,8 +36,10 @@ const MusicPage = () => {
           onLoad={handleLoad}
         ></iframe>
       </div>
-      <Footer color="#a98451"/>
+      {/* <Footer color="#a98451"/> */}
     </div>
+    <Footer color="#a98451"/>
+    </>
   );
 };
 

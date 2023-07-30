@@ -10,7 +10,8 @@ const Bottom = ({color}) => {
   console.log(color);
 
   return (
-    <div className={classes.bottom} style={{width: '1440px', height: "110px", overflow: 'hidden', backgroundColor: color}}>
+    // style={{width: '1440px', height: "110px", overflow: 'hidden', backgroundColor: color}}
+    <div className={classes.bottom} style={{width: '100%', height: "110px", overflow: 'hidden', backgroundColor: color}}>
       <div className={inView ? "footer-view" : "footer"} ref={ref}>
         <link
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
