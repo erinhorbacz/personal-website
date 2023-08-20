@@ -9,6 +9,9 @@ import meltingface from "../../components/images/art/meltingface.jpg";
 // import sun from "../../components/images/art/sun.jpg";
 import sun_b from "../../components/images/art/sun_b&w.jpg";
 import animals from "../../components/images/art/animals.png";
+import woman from "../../components/images/art/woman.jpg";
+import scarf from "../../components/images/art/woman_scarf.jpg";
+import bob from "../../components/images/art/bob_ross.jpg";
 
 import ArtBackground from "./ArtBackground";
 import Footer from "../../components/footer_section/Footer";
@@ -50,6 +53,24 @@ const ArtPage = () => {
       caption:
         "The background I made for this website! I saw someone with a really cool tattoo of walking animals and it inspired me to make this art.",
       width: "980px",
+    },
+    {
+      img: woman,
+      caption:
+        "Fast sketch from 2020.",
+      width: "460px",
+    },
+    {
+      img: scarf,
+      caption:
+        "First and only time I've drawn fabric. Didn't turn out amazing but it was fun.",
+      width: "455px",
+    },
+    {
+      img: bob,
+      caption:
+        "First painting I've made following a Bob Ross tutorial!",
+      width: "775px",
     },
   ];
 
