@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fba61cde.css",
-    "main.js": "/static/js/main.90f4a919.js",
+    "main.css": "/static/css/main.08855efc.css",
+    "main.js": "/static/js/main.edf64664.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/IMG_20210113_145957126_HDR.jpg": "/static/media/IMG_20210113_145957126_HDR.2e8d90e3dddf2941b506.jpg",
     "static/media/IMG_20210205_144155945.jpg": "/static/media/IMG_20210205_144155945.d0f9a00f70b77bdb9532.jpg",
@@ -36,6 +36,7 @@
     "static/media/sketch1689889175991.png": "/static/media/sketch1689889175991.f5dd6286a5d0191b3965.png",
     "static/media/IMG_20151024_114448.jpg": "/static/media/IMG_20151024_114448.81373fb939d9f6426f84.jpg",
     "static/media/sketch1689887813421.png": "/static/media/sketch1689887813421.1268565ab9ac221f392a.png",
+    "static/media/bob_ross.jpg": "/static/media/bob_ross.6bcd6df47f46c511c46a.jpg",
     "static/media/IMG_20150904_144012.jpg": "/static/media/IMG_20150904_144012.132273f1a237fc992a05.jpg",
     "static/media/IMG_20150807_173913.jpg": "/static/media/IMG_20150807_173913.7fb251a2a52d577cc439.jpg",
     "static/media/Snapchat-1230122230.jpg": "/static/media/Snapchat-1230122230.16ba4d74a58231b0bd1a.jpg",
@@ -58,17 +59,19 @@
     "static/media/IMG_20180119_191516.jpg": "/static/media/IMG_20180119_191516.d042be634dc55b2fcda7.jpg",
     "static/media/meltingface.jpg": "/static/media/meltingface.0f0a24f371a9cec6e723.jpg",
     "static/media/IMG_20150101_163016.jpg": "/static/media/IMG_20150101_163016.343ddc12efd469ee9dcb.jpg",
+    "static/media/woman.jpg": "/static/media/woman.f8a1501e0f809a566915.jpg",
+    "static/media/woman_scarf.jpg": "/static/media/woman_scarf.c220f5728d9dbc17344f.jpg",
     "static/media/sun_b&w.jpg": "/static/media/sun_b&w.2b6fbb0b3c41eca1c3b1.jpg",
     "static/media/IMG_20190729_125624232.jpg": "/static/media/IMG_20190729_125624232.48c77e548790d0845f23.jpg",
     "static/media/timothy.jpg": "/static/media/timothy.eadf59b5cf0f7fa52400.jpg",
     "static/media/image.jpg": "/static/media/image.a7324e076421e3cb0675.jpg",
     "index.html": "/index.html",
-    "main.fba61cde.css.map": "/static/css/main.fba61cde.css.map",
-    "main.90f4a919.js.map": "/static/js/main.90f4a919.js.map",
+    "main.08855efc.css.map": "/static/css/main.08855efc.css.map",
+    "main.edf64664.js.map": "/static/js/main.edf64664.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba61cde.css",
-    "static/js/main.90f4a919.js"
+    "static/css/main.08855efc.css",
+    "static/js/main.edf64664.js"
   ]
 }
