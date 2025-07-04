@@ -63,7 +63,7 @@ const WelcomePage = () => {
                 sx={{ mt: 1, mb: 1 }}
               >
                 <a
-                  href="https://github.com/terrenceshi/"
+                  href="https://github.com/erinhorbacz?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -102,7 +102,7 @@ const WelcomePage = () => {
             <div className={inView ? "footer-view" : "footer"} ref={ref}>
               <p>CHECKOUT MY RESUME</p>
               <a
-                href="https://drive.google.com/file/d/1MEBauwVmghDwHLBpUbDLIbOTn0oszybs/view?usp=sharing"
+                href="https://drive.google.com/file/d/1yW7a3vYJHKywufCMbtIRU73HHbsWPBW5/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
