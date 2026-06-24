@@ -9,7 +9,7 @@ const First_para = (props) => {
 const Second_para = (props) => {
   return (
     <p className={props.className}>
-      Pianist and violinist. Amaetur artist. Coffee over tea. These are things
+      Pianist and violinist. Amateur artist. Coffee over tea. These are things
       you can’t learn from a resume. Here is a place where you can get to know
       me outside of my professional and academic accomplishments… a place to get
       up close and personal. Have fun exploring!
