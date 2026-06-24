@@ -82,7 +82,7 @@ const PursuitsPage = () => {
                   Although I've spent a lot of time in the lab, what I really
                   love is industry work. I've loved my previous experience
                   working in industry, and I see myself working as a Software
-                  Engineer in Tech for the forseable future.
+                  Engineer in Tech for the foreseeable future.
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ const PursuitsPage = () => {
                 }`}
               >
                 <p style={{ width: "600px", textAlign: "justify" }}>
-                  You've gotten to see some of my ameatur artwork here on this
+                  You've gotten to see some of my amateur artwork here on this
                   site, but I'd love to take some real art lessons and improve
                   my skills. I plan on investing in myself (once I have the
                   means to do so) by taking some painting lessons. As of now, I
@@ -127,7 +127,7 @@ const PursuitsPage = () => {
                   I'm a very social person who loves the chaos and noise of a
                   city. I want to live in a big city throughout my early career
                   and experience all there is to offer- everything from art
-                  museaums to dog walking clubs. My favorite city is New York,
+                  museums to dog walking clubs. My favorite city is New York,
                   and it's been my dream since I was a kid to be a New Yorker.
                   I'm looking forward to calling it home... although I am not
                   looking forward to the rent.
