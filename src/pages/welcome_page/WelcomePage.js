@@ -102,7 +102,7 @@ const WelcomePage = () => {
             <div className={inView ? "footer-view" : "footer"} ref={ref}>
               <p>CHECKOUT MY RESUME</p>
               <a
-                href="https://drive.google.com/file/d/1yW7a3vYJHKywufCMbtIRU73HHbsWPBW5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1iHquLpK3nJD8TdjoNfQ3LXlt5Hxw4YRK/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
