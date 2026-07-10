@@ -42,10 +42,10 @@ function App() {
 
   const sliderArr = [
     first,
-    fifth,
     second,
     third,
     fourth,
+    fifth,
   ];
   const [bannersLoaded, setBannersLoaded] = useState(0);
 
