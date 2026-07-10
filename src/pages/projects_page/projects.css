@@ -1,0 +1,93 @@
+.background_projects {
+  background-color: rgba(74, 47, 55, 0.5);
+  padding: 30px;
+}
+
+.projects_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.project_card {
+  background-color: rgba(255, 255, 255, 0.65); /* light frosted glass so the dark text stays readable */
+  backdrop-filter: blur(10px); /* Apply a blur effect to create the glassy look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project_card .project_title {
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(74, 47, 55);
+}
+
+.project_tagline {
+  font-family: Optima, sans-serif;
+  color: rgba(74, 47, 55, 0.85);
+  font-style: italic;
+  font-size: 1rem;
+  margin: 5px 0 15px 0;
+}
+
+.project_description {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(59, 44, 50);
+  font-size: 17px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0 0 20px 0;
+}
+
+.project_tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tech_chip {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: rgb(74, 47, 55);
+  background-color: rgba(233, 175, 194, 0.85);
+  border-radius: 20px;
+  padding: 4px 12px;
+  white-space: nowrap;
+}
+
+.project_links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.project_link {
+  font-family: Optima, sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: rgba(74, 47, 55, 0.85);
+  border-radius: 20px;
+  padding: 6px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.project_link:hover {
+  background-color: rgb(48, 30, 36);
+}
+
+@media (max-width: 500px) {
+  .projects_grid {
+    grid-template-columns: 1fr;
+  }
+}

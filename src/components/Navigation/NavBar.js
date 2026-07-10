@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import classes from "./NavBar.module.css";
 
 const NavBar = () => {
-  const tabs = ["home", "art", "photography", "music", "pursuits"];
+  const tabs = ["home", "projects", "art", "photography", "music"];
   return (
     <header className={classes.header}>
       {/* <button className={classes.button}>hey</button> */}

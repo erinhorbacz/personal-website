@@ -7,7 +7,7 @@ import WelcomePage from "./pages/welcome_page/WelcomePage";
 import PhotographyPage from "./pages/photography_page/PhotographyPage";
 import ArtPage from "./pages/art_page/ArtPage";
 import MusicPage from "./pages/music_page/MusicPage";
-import PursuitsPage from "./pages/pursuits_page/PursuitsPage";
+import ProjectsPage from "./pages/projects_page/ProjectsPage";
 import Headers from "./components/Utils/Headers";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -42,10 +42,10 @@ function App() {
 
   const sliderArr = [
     first,
+    fifth,
     second,
     third,
     fourth,
-    fifth,
   ];
   const [bannersLoaded, setBannersLoaded] = useState(0);
 
@@ -71,6 +71,11 @@ function App() {
     </>,
     <div className="centerBox">
       <h1 className="banner_title" style={titleStyle}>
+        things I've built.
+      </h1>
+    </div>,
+    <div className="centerBox">
+      <h1 className="banner_title" style={titleStyle}>
         enjoy some doodles.
       </h1>
     </div>,
@@ -84,11 +89,6 @@ function App() {
         grab your headphones.
       </h1>
     </div>,
-    <div className="centerBox">
-      <h1 className="banner_title" style={titleStyle}>
-        where I'm heading.
-      </h1>
-    </div>,
   ];
 
   useEffect(() => {
@@ -100,16 +100,16 @@ function App() {
     ) {
       setX(0);
     }
-    if ((location["pathname"] === "/art") & (x !== -100)) {
+    if ((location["pathname"] === "/projects") & (x !== -100)) {
       setX(-100);
     }
-    if ((location["pathname"] === "/photography") & (x !== -200)) {
+    if ((location["pathname"] === "/art") & (x !== -200)) {
       setX(-200);
     }
-    if ((location["pathname"] === "/music") & (x !== -300)) {
+    if ((location["pathname"] === "/photography") & (x !== -300)) {
       setX(-300);
     }
-    if ((location["pathname"] === "/pursuits") & (x !== -400)) {
+    if ((location["pathname"] === "/music") & (x !== -400)) {
       setX(-400);
     }
   });
@@ -176,7 +176,7 @@ function App() {
             <div />
           )}
 
-          {location["pathname"] === "/pursuits" ? (
+          {location["pathname"] === "/projects" ? (
             <div className="bannerContainer">
               <div className="centerBox">
                 <div className="centerText" style={{ width: "800px" }}>
@@ -221,10 +221,10 @@ function App() {
             <Routes>
               <Route path="/" element={<WelcomePage />} />
               <Route path="/home" element={<WelcomePage />} />
+              <Route path="/projects" element={<ProjectsPage />} />
               <Route path="/art" element={<ArtPage />} />
               <Route path="/photography" element={<PhotographyPage />} />
               <Route path="/music" element={<MusicPage />} />
-              <Route path="/pursuits" element={<PursuitsPage />} />
             </Routes>
           </div>
         </div>

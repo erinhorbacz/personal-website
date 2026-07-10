@@ -14,7 +14,7 @@ import classes from './NavBar.module.css';
 import { Link } from "react-router-dom";
 import { faM } from '@fortawesome/free-solid-svg-icons';
 
-const pages = ['home', 'art','photography', 'music', 'pursuits'];
+const pages = ['home', 'projects', 'art', 'photography', 'music'];
 
 // windowMode
 const Nav = () => {
