@@ -114,7 +114,7 @@ const projects = [
     ],
   },
   {
-    title: "React Sight",
+    title: "React Tree",
     tagline: "Published on the Chrome Web Store as React Tree Injector",
     description: (
       <>
