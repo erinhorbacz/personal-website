@@ -19,17 +19,9 @@ const projects = [
         step of the surviving routes, and an optimization agent iteratively
         redesigns individual steps to converge on a Pareto frontier of cost,
         purity, and confidence. The system runs on DBOS, a Postgres-backed
-        durable execution engine, using a higher-order workflow factory I
-        designed that wraps every workflow with Zod-validated I/O contracts,
-        queue registration with concurrency and rate limits, and journaled
-        steps. Child-workflow IDs are deterministic, so a crashed parent
-        resumes by reattaching to in-flight children rather than duplicating
-        work. The agent loops (Vercel AI SDK + Gemini) are split so each model
-        turn and tool effect checkpoints independently, preserving exactly-once
-        semantics for tool side effects while keeping nondeterministic LLM
-        turns cleanly separated from deterministic workflow logic; invalid
-        tool calls return to the model as structured errors for
-        self-correction instead of crashing the run. The pipeline streams live
+        durable execution engine. The agent loops (Vercel AI SDK + Gemini) are split so each model
+        turn and tool effect checkpoints independently, keeping nondeterministic LLM
+        turns cleanly separated from deterministic workflow logic. The pipeline streams live
         transcripts to the UI, triggering visual updates.
       </>
     ),
