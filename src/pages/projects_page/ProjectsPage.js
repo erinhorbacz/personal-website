@@ -2,9 +2,47 @@ import "./projects.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 import ExtensionIcon from "@mui/icons-material/Extension";
+import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import Footer from "../../components/footer_section/Footer";
 
 const projects = [
+  {
+    title: "Agentic Synthesis Planner",
+    tagline: "Durable multi-agent workflow system",
+    description: (
+      <>
+        A fully durable, agentic workflow in TypeScript that automates chemical
+        synthesis planning end to end by chaining together 12 durable
+        workflows, 7 LLM agents, and 16 agent tools. A retrosynthesis agent
+        generates candidate routes via backwards tree search through known
+        reaction patterns, a procedure planner drafts reaction plans for each
+        step of the surviving routes, and an optimization agent iteratively
+        redesigns individual steps to converge on a Pareto frontier of cost,
+        purity, and confidence. The system runs on DBOS, a Postgres-backed
+        durable execution engine. The agent loops (Vercel AI SDK + Gemini) are split so each model
+        turn and tool effect checkpoints independently, keeping nondeterministic LLM
+        turns cleanly separated from deterministic workflow logic. The pipeline streams live
+        transcripts to the UI, triggering visual updates.
+      </>
+    ),
+    tech: [
+      "DBOS",
+      "Large Language Models (LLM)",
+      "Deterministic LLM Programming",
+      "Redis",
+      "SSE",
+      "React",
+      "Zod",
+      "Agent Tools",
+    ],
+    links: [
+      {
+        label: "Watch It in Action",
+        href: "https://drive.google.com/file/d/1a5WViaroiPi3fjJ7k0hmD9ZYHhadNB8u/view?usp=sharing",
+        icon: <OndemandVideoIcon fontSize="small" />,
+      },
+    ],
+  },
   {
     title: "LitBeats",
     tagline: "Group project · Georgia Tech Machine Learning",
